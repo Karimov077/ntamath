@@ -36,7 +36,8 @@ Vite + React + TypeScript + Tailwind CSS asosida yaratilgan, Telegram Mini App v
 
 ## 📚 O'tilgan Mavzular va Testlar Bazasi
 
-Platformada aynan o'tilgan dolzarb mavzular bo'yicha testlar to'plami tuzilgan:
+Platformada o'tilgan barcha mavzular bo'yicha to'liq testlar va har bir misolning **batafsil yechilishi (ishlanishi)** kiritilgan:
+
 1. **1-Dars: Kasrlarni qo'shish va ayirish**
    - Maxrajlari bir xil va har xil bo'lgan oddiy kasrlar ustida amallar
    - Aralash sonlarni qo'shish va ayirish, butundan kasrni ayirish
@@ -48,11 +49,27 @@ Platformada aynan o'tilgan dolzarb mavzular bo'yicha testlar to'plami tuzilgan:
 3. **3-Dars: Qisqa ko'paytirish formulalari: $(a+b)^2$ va $(a-b)^2$**
    - Yig'indining kvadrati: $(a+b)^2 = a^2 + 2ab + b^2$
    - Ayirmaning kvadrati: $(a-b)^2 = a^2 - 2ab + b^2$
-   - To'la kvadratga ajratish, algebraik ifodalarni soddalashtirish
-4. **4-Dars: Kasrlar va qisqa ko'paytirish (Umumlashtiruvchi test)**
-   - Kasrlar va $(a \pm b)^2$ formulalarini birgalikda qo'llashga doir amaliy va nazariy masalalar
+   - To'la kvadratga ajratish, algebraik hisoblashlar
+4. **17-Dars: Yig'indining kubi va ayirmaning kubi**
+   - $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$
+   - $(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$
+   - Qavslarni ochish, ko'phad ko'rinishida yozish, qiymat topish
+5. **18-Dars: Kvadratlar ayirmasi**
+   - $a^2 - b^2 = (a-b)(a+b)$
+   - Ko'paytuvchilarga ajratish, hisoblashlar va kasrlarni qisqartirish
+6. **19-Dars: Kublarning yig'indisi va ayirmasi**
+   - $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$
+   - $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$
+   - Qisqartirish va algebraik hisoblashlar
+7. **20-Dars: Butun ifodalarni shakl almashtirish**
+   - Ko'phadlarni ko'paytirish va guruhlash usuli bilan ko'paytuvchilarga ajratish
+   - Formulalar yordamida ifodalarni ixchamlash
+8. **21-Dars: Algebraik kasrlar ustida amallar**
+   - Algebraik kasrlarni qisqartirish, umumiy maxrajga keltirish, qo'shish, ayirish, ko'paytirish va bo'lish
 
-> **Eslatma:** Har bir darsda 20 tadan ortiq (100 tagacha kengaytiriladigan) savollar bazasi mavjud. O'quvchi test boshlaganda **Fisher-Yates algoritmi** orqali har doim tasodifiy **20 ta savol** tanlab beriladi.
+💡 **Misollarning to'liq yechilishi:** Har bir test yakunlangach, o'quvchi xato qilgan savollarining tagida to'g'ri javob bilan birga misolning qadamma-qadam yechilish yo'li va qoidasi yaqqol ko'rinadi!
+
+> **Eslatma:** Har bir darsda savollar bazasidan o'quvchi test boshlaganda **Fisher-Yates algoritmi** orqali har doim tasodifiy **20 ta savol** tanlab beriladi.
 
 ---
 

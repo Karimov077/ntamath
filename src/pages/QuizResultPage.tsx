@@ -14,6 +14,7 @@ import {
   RotateCcw,
   Sparkles,
   Info,
+  Lightbulb,
 } from 'lucide-react';
 
 interface QuizResultPageProps {
@@ -297,13 +298,38 @@ export const QuizResultPage: React.FC<QuizResultPageProps> = ({
                   })}
                 </div>
 
-                {/* Explanation if present */}
+                {/* Detailed Step-by-Step Solution & Explanation */}
                 {q.explanation && (
-                  <div className="mt-3 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 text-xs text-slate-600 dark:text-slate-300 flex items-start gap-2">
-                    <Info className="w-4 h-4 text-indigo-500 shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="text-slate-800 dark:text-slate-200">Tushuntirish:</strong>{' '}
-                      {q.explanation}
+                  <div
+                    className={`mt-4 p-4 rounded-2xl text-xs flex items-start gap-3 border transition ${
+                      !isCorrect
+                        ? 'bg-amber-50/90 dark:bg-amber-950/40 border-amber-300 dark:border-amber-800 text-amber-950 dark:text-amber-100 shadow-sm'
+                        : 'bg-indigo-50/70 dark:bg-slate-800/60 border-indigo-100 dark:border-slate-700 text-slate-800 dark:text-slate-200'
+                    }`}
+                  >
+                    <div
+                      className={`p-1.5 rounded-xl shrink-0 ${
+                        !isCorrect
+                          ? 'bg-amber-500 text-white shadow-sm'
+                          : 'bg-indigo-600 text-white shadow-sm'
+                      }`}
+                    >
+                      <Lightbulb className="w-4 h-4" />
+                    </div>
+                    <div className="space-y-1 flex-1">
+                      <div className="font-bold flex items-center justify-between">
+                        <span className="text-xs">
+                          {!isCorrect
+                            ? "⚠️ Misolning to'g'ri yechilishi va tushuntirish:"
+                            : "💡 Misolning yechilishi va formulasi:"}
+                        </span>
+                        <span className="font-mono text-[11px] font-semibold opacity-80">
+                          To'g'ri javob: variant {optionLabels[q.correctOptionIndex]}
+                        </span>
+                      </div>
+                      <p className="leading-relaxed text-xs font-mono font-medium whitespace-pre-wrap">
+                        {q.explanation}
+                      </p>
                     </div>
                   </div>
                 )}
