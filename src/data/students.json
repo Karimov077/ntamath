@@ -1,0 +1,150 @@
+[
+  {
+    "id": "std-1",
+    "username": "jaxongir_a",
+    "password": "Jaxo#2026",
+    "fullName": "Jaxongir Abdurashidov",
+    "role": "student"
+  },
+  {
+    "id": "std-2",
+    "username": "mushtariy_a",
+    "password": "Mush#2026",
+    "fullName": "Mushtariy Abduxoshimova",
+    "role": "student"
+  },
+  {
+    "id": "std-3",
+    "username": "nurislom_a",
+    "password": "Nuri#2026",
+    "fullName": "Nurislom Adilbayev",
+    "role": "student"
+  },
+  {
+    "id": "std-4",
+    "username": "nurmuhammad_a",
+    "password": "Nurm#2026",
+    "fullName": "Nurmuhammad Adilbayev",
+    "role": "student"
+  },
+  {
+    "id": "std-5",
+    "username": "tursunoy_a",
+    "password": "Turs#2026",
+    "fullName": "Tursunoy Alimbekova",
+    "role": "student"
+  },
+  {
+    "id": "std-6",
+    "username": "durdona_a",
+    "password": "Durd#2026",
+    "fullName": "Durdona Alixanova",
+    "role": "student"
+  },
+  {
+    "id": "std-7",
+    "username": "javohir_b",
+    "password": "Javo#2026",
+    "fullName": "Javohir Baxriddinov",
+    "role": "student"
+  },
+  {
+    "id": "std-8",
+    "username": "ibrohim_b",
+    "password": "Ibro#2026",
+    "fullName": "Ibrohim Begmatov",
+    "role": "student"
+  },
+  {
+    "id": "std-9",
+    "username": "sultonbek_d",
+    "password": "Sult#2026",
+    "fullName": "Sultonbek Dexqonov",
+    "role": "student"
+  },
+  {
+    "id": "std-10",
+    "username": "salovat_e",
+    "password": "Salo#2026",
+    "fullName": "Salovat Eldorov",
+    "role": "student"
+  },
+  {
+    "id": "std-11",
+    "username": "shaxlo_e",
+    "password": "Shax#2026",
+    "fullName": "Shaxlo Ergashvoyeva",
+    "role": "student"
+  },
+  {
+    "id": "std-12",
+    "username": "iroda_i",
+    "password": "Irod#2026",
+    "fullName": "Iroda Ilxomova",
+    "role": "student"
+  },
+  {
+    "id": "std-13",
+    "username": "karomat_k",
+    "password": "Karo#2026",
+    "fullName": "Karomat Kuzimurodova",
+    "role": "student"
+  },
+  {
+    "id": "std-14",
+    "username": "muhammadziyo_q",
+    "password": "Muha#2026",
+    "fullName": "Muhammadziyo Qochqorov",
+    "role": "student"
+  },
+  {
+    "id": "std-15",
+    "username": "odina_r",
+    "password": "Odin#2026",
+    "fullName": "Odina Rahmonaliyeva",
+    "role": "student"
+  },
+  {
+    "id": "std-16",
+    "username": "umidjon_s",
+    "password": "Umid#2026",
+    "fullName": "Umidjon Saydullayev",
+    "role": "student"
+  },
+  {
+    "id": "std-17",
+    "username": "toxir_t",
+    "password": "Toxi#2026",
+    "fullName": "Toxir To'rabekov",
+    "role": "student"
+  },
+  {
+    "id": "std-18",
+    "username": "karina_t",
+    "password": "Kari#2026",
+    "fullName": "Karina Turdaliyeva",
+    "role": "student"
+  },
+  {
+    "id": "std-19",
+    "username": "diyoraxon_x",
+    "password": "Diyo#2026",
+    "fullName": "Diyoraxon Xodjidadayeva",
+    "role": "student"
+  },
+  {
+    "id": "std-20",
+    "username": "rozzana_a",
+    "password": "Rozz#2026",
+    "fullName": "Ro'zzana Abdumalikova",
+    "role": "student"
+  },
+  {
+    "id": "admin-1",
+    "username": "admin",
+    "password": "SuperAdminTest2026!",
+    "fullName": "Bosh Administrator",
+    "role": "admin"
+  }
+]
+

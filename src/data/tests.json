@@ -1,0 +1,339 @@
+[
+  {
+    "id": "lesson-1",
+    "number": 1,
+    "title": "1-Dars: Haqiqiy sonlar va algebraik ifodalar",
+    "description": "Natural, butun, ratsional va haqiqiy sonlar ustida amallar, qisqa ko'paytirish formulalari",
+    "durationMinutes": 30,
+    "createdAt": "2026-11-01T10:00:00.000Z",
+    "questions": [
+      {
+        "id": "q1-1",
+        "text": "Hisoblang: 15 - 3 * (4 - 7) + 2^3",
+        "options": ["32", "14", "26", "24"],
+        "correctOptionIndex: ": 0,
+        "correctOptionIndex": 0,
+        "explanation": "15 - 3*(-3) + 8 = 15 + 9 + 8 = 32"
+      },
+      {
+        "id": "q1-2",
+        "text": "Agar a + b = 7 va ab = 10 bo'lsa, a^2 + b^2 ning qiymatini toping.",
+        "options": ["29", "39", "49", "19"],
+        "correctOptionIndex": 0,
+        "explanation": "a^2 + b^2 = (a+b)^2 - 2ab = 49 - 20 = 29"
+      },
+      {
+        "id": "q1-3",
+        "text": "Kasrni qisqartiring: (x^2 - 9) / (x^2 + 6x + 9)",
+        "options": ["(x - 3) / (x + 3)", "(x + 3) / (x - 3)", "(x - 9) / (x + 9)", "1 / (6x)"],
+        "correctOptionIndex": 0,
+        "explanation": "(x-3)(x+3) / (x+3)^2 = (x-3)/(x+3)"
+      },
+      {
+        "id": "q1-4",
+        "text": "Hisoblang: sqrt(75) - sqrt(27) + sqrt(12)",
+        "options": ["4*sqrt(3)", "2*sqrt(3)", "6*sqrt(3)", "3*sqrt(3)"],
+        "correctOptionIndex": 0,
+        "explanation": "5*sqrt(3) - 3*sqrt(3) + 2*sqrt(3) = 4*sqrt(3)"
+      },
+      {
+        "id": "q1-5",
+        "text": "Sonning 40% i 80 ga teng bo'lsa, shu sonning 15% ini toping.",
+        "options": ["30", "25", "35", "40"],
+        "correctOptionIndex": 0,
+        "explanation": "Son: 80 / 0.4 = 200. Uning 15% i: 200 * 0.15 = 30"
+      },
+      {
+        "id": "q1-6",
+        "text": "Quyidagi sonlardan qaysi biri eng katta: 2^60, 3^40, 4^30, 5^20?",
+        "options": ["3^40", "2^60", "4^30", "5^20"],
+        "correctOptionIndex": 0,
+        "explanation": "Darajalarni 10-darajaga keltiramiz: 2^60=(2^6)^10=64^10; 3^40=(3^4)^10=81^10; 4^30=64^10; 5^20=25^10. Eng kattasi 81^10 = 3^40"
+      },
+      {
+        "id": "q1-7",
+        "text": "Tenglamani yeching: 2x - 5 = 3x + 4",
+        "options": ["x = -9", "x = 9", "x = -1", "x = 1"],
+        "correctOptionIndex": 0,
+        "explanation": "2x - 3x = 4 + 5 => -x = 9 => x = -9"
+      },
+      {
+        "id": "q1-8",
+        "text": "Tub sonlar qatorini ko'rsating:",
+        "options": ["2, 3, 5, 7, 11", "1, 2, 3, 5, 7", "2, 4, 6, 8, 10", "3, 5, 9, 11, 13"],
+        "correctOptionIndex": 0,
+        "explanation": "1 tub son emas, 9 va 4 murakkab sonlar."
+      },
+      {
+        "id": "q1-9",
+        "text": "Hisoblang: |-12| + | -5 | - | -8 |",
+        "options": ["9", "25", "-9", "15"],
+        "correctOptionIndex": 0,
+        "explanation": "12 + 5 - 8 = 9"
+      },
+      {
+        "id": "q1-10",
+        "text": "Agar x = 3 bo'lsa, 2x^2 - 4x + 5 ning qiymati nechaga teng?",
+        "options": ["11", "15", "9", "7"],
+        "correctOptionIndex": 0,
+        "explanation": "2*(9) - 4*(3) + 5 = 18 - 12 + 5 = 11"
+      },
+      {
+        "id": "q1-11",
+        "text": "Kasrning maxrajini irratsionallikdan qutqaring: 6 / sqrt(3)",
+        "options": ["2*sqrt(3)", "3*sqrt(3)", "6*sqrt(3)", "sqrt(3)"],
+        "correctOptionIndex": 0,
+        "explanation": "6*sqrt(3) / 3 = 2*sqrt(3)"
+      },
+      {
+        "id": "q1-12",
+        "text": "72 va 108 sonlarining EKUB ini toping.",
+        "options": ["36", "18", "72", "24"],
+        "correctOptionIndex": 0,
+        "explanation": "72 = 36 * 2, 108 = 36 * 3. EKUB(72, 108) = 36"
+      },
+      {
+        "id": "q1-13",
+        "text": "12 va 18 sonlarining EKUK ini toping.",
+        "options": ["36", "72", "54", "24"],
+        "correctOptionIndex": 0,
+        "explanation": "EKUK(12, 18) = 36"
+      },
+      {
+        "id": "q1-14",
+        "text": "Ifodani soddalashtiring: (a - b)^2 + 2ab",
+        "options": ["a^2 + b^2", "a^2 - b^2", "(a + b)^2", "a^2 + 4ab + b^2"],
+        "correctOptionIndex": 0,
+        "explanation": "a^2 - 2ab + b^2 + 2ab = a^2 + b^2"
+      },
+      {
+        "id": "q1-15",
+        "text": "Proporsiyadan x ni toping: x / 4 = 15 / 6",
+        "options": ["10", "12", "8", "6"],
+        "correctOptionIndex": 0,
+        "explanation": "x = 4 * 15 / 6 = 60 / 6 = 10"
+      },
+      {
+        "id": "q1-16",
+        "text": "Hisoblang: (1/2 + 1/3) : 5/6",
+        "options": ["1", "5/6", "6/5", "25/36"],
+        "correctOptionIndex": 0,
+        "explanation": "(3/6 + 2/6) : 5/6 = (5/6) : (5/6) = 1"
+      },
+      {
+        "id": "q1-17",
+        "text": "Uchburchakning ichki burchaklari yig'indisi nechaga teng?",
+        "options": ["180°", "360°", "90°", "270°"],
+        "correctOptionIndex": 0,
+        "explanation": "Ixtiyoriy yassi uchburchak ichki burchaklari yig'indisi 180 gradus."
+      },
+      {
+        "id": "q1-18",
+        "text": "Tengsizlikni yeching: 3x - 7 < 8",
+        "options": ["x < 5", "x > 5", "x < 1/3", "x > 15"],
+        "correctOptionIndex": 0,
+        "explanation": "3x < 15 => x < 5"
+      },
+      {
+        "id": "q1-19",
+        "text": "Hisoblang: (-2)^3 * (-3)^2",
+        "options": ["-72", "72", "-36", "36"],
+        "correctOptionIndex": 0,
+        "explanation": "(-8) * 9 = -72"
+      },
+      {
+        "id": "q1-20",
+        "text": "Agar to'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm bo'lsa, uning perimetrini toping.",
+        "options": ["26 sm", "40 sm", "13 sm", "20 sm"],
+        "correctOptionIndex": 0,
+        "explanation": "P = 2 * (8 + 5) = 26 sm"
+      },
+      {
+        "id": "q1-21",
+        "text": "Hisoblang: log2(16) + log3(27)",
+        "options": ["7", "6", "12", "5"],
+        "correctOptionIndex": 0,
+        "explanation": "4 + 3 = 7"
+      },
+      {
+        "id": "q1-22",
+        "text": "y = 2x + 3 chiziqli funksiya grafigi qaysi nuqtadan o'tadi?",
+        "options": ["(1, 5)", "(2, 5)", "(0, 2)", "(-1, 2)"],
+        "correctOptionIndex": 0,
+        "explanation": "x=1 da y = 2(1)+3 = 5"
+      },
+      {
+        "id": "q1-23",
+        "text": "Kvadrat tenglamaning diskriminantini toping: x^2 - 5x + 6 = 0",
+        "options": ["1", "49", "25", "5"],
+        "correctOptionIndex": 0,
+        "explanation": "D = b^2 - 4ac = 25 - 24 = 1"
+      },
+      {
+        "id": "q1-24",
+        "text": "Arifmetik progressiyada a1 = 3, d = 4 bo'lsa, a10 ni toping.",
+        "options": ["39", "43", "36", "40"],
+        "correctOptionIndex": 0,
+        "explanation": "a10 = a1 + 9d = 3 + 36 = 39"
+      },
+      {
+        "id": "q1-25",
+        "text": "1 dan 10 gacha bo'lgan natural sonlar yig'indisini toping.",
+        "options": ["55", "50", "45", "60"],
+        "correctOptionIndex": 0,
+        "explanation": "10 * 11 / 2 = 55"
+      }
+    ]
+  },
+  {
+    "id": "lesson-2",
+    "number": 2,
+    "title": "2-Dars: Kvadrat tenglamalar va Viyet teoremasi",
+    "description": "Kvadrat tenglama ildizlari, to'liqsiz kvadrat tenglamalar, diskriminant va Viyet munosabatlari",
+    "durationMinutes": 30,
+    "createdAt": "2026-11-02T10:00:00.000Z",
+    "questions": [
+      {
+        "id": "q2-1",
+        "text": "x^2 - 7x + 12 = 0 tenglamaning ildizlarini toping.",
+        "options": ["3 va 4", "2 va 6", "-3 va -4", "1 va 12"],
+        "correctOptionIndex": 0,
+        "explanation": "x1+x2=7, x1*x2=12 => x1=3, x2=4"
+      },
+      {
+        "id": "q2-2",
+        "text": "2x^2 - 8 = 0 tenglamaning musbat ildizini toping.",
+        "options": ["2", "4", "sqrt(2)", "8"],
+        "correctOptionIndex": 0,
+        "explanation": "2x^2 = 8 => x^2 = 4 => x = 2"
+      },
+      {
+        "id": "q2-3",
+        "text": "x^2 + px + q = 0 tenglama ildizlari 2 va -5 bo'lsa, p ni toping.",
+        "options": ["3", "-3", "-10", "10"],
+        "correctOptionIndex": 0,
+        "explanation": "x1+x2 = -p => 2 + (-5) = -3 => -p = -3 => p = 3"
+      },
+      {
+        "id": "q2-4",
+        "text": "x^2 - 6x + 9 = 0 tenglama nechta turli haqiqiy ildizga ega?",
+        "options": ["1 ta (karrali)", "2 ta turli", "ildizga ega emas", "cheksiz ko'p"],
+        "correctOptionIndex": 0,
+        "explanation": "D = 36 - 36 = 0, bitta ildiz x = 3"
+      },
+      {
+        "id": "q2-5",
+        "text": "Agar kvadrat tenglama D < 0 bo'lsa, uning haqiqiy sonlar to'plamidagi ildizlari soni nechta?",
+        "options": ["0 ta", "1 ta", "2 ta", "aniqlab bo'lmaydi"],
+        "correctOptionIndex": 0,
+        "explanation": "D < 0 da haqiqiy ildizlar mavjud emas."
+      },
+      {
+        "id": "q2-6",
+        "text": "3x^2 - 12x = 0 tenglamaning ildizlari yig'indisini toping.",
+        "options": ["4", "0", "-4", "12"],
+        "correctOptionIndex": 0,
+        "explanation": "3x(x - 4) = 0 => x=0 yoki x=4. Yig'indisi: 4"
+      },
+      {
+        "id": "q2-7",
+        "text": "x^2 - 11x + 30 = 0 tenglamaning kichik ildizini toping.",
+        "options": ["5", "6", "-5", "-6"],
+        "correctOptionIndex": 0,
+        "explanation": "Ildizlari 5 va 6. Kichigi 5."
+      },
+      {
+        "id": "q2-8",
+        "text": "x1 va x2 sonlari x^2 - 4x + 1 = 0 ning ildizlari bo'lsa, 1/x1 + 1/x2 ni hisoblang.",
+        "options": ["4", "1/4", "-4", "1"],
+        "correctOptionIndex": 0,
+        "explanation": "(x1+x2) / (x1*x2) = 4 / 1 = 4"
+      },
+      {
+        "id": "q2-9",
+        "text": "Ildizlari 1 va 9 bo'lgan keltirilgan kvadrat tenglamani tuzing.",
+        "options": ["x^2 - 10x + 9 = 0", "x^2 + 10x + 9 = 0", "x^2 - 9x + 10 = 0", "x^2 + 9x - 10 = 0"],
+        "correctOptionIndex": 0,
+        "explanation": "x^2 - (1+9)x + 1*9 = x^2 - 10x + 9 = 0"
+      },
+      {
+        "id": "q2-10",
+        "text": "4x^2 + 12x + 9 ifodani qisqa ko'paytirish formulasi ko'rinishida yozing.",
+        "options": ["(2x + 3)^2", "(2x - 3)^2", "(4x + 3)^2", "(2x + 9)^2"],
+        "correctOptionIndex": 0,
+        "explanation": "(2x)^2 + 2*2x*3 + 3^2 = (2x+3)^2"
+      },
+      {
+        "id": "q2-11",
+        "text": "x^2 - 16 = 0 tenglamaning ildizlari ko'paytmasini toping.",
+        "options": ["-16", "16", "0", "4"],
+        "correctOptionIndex": 0,
+        "explanation": "Ildizlari: 4 va -4. Ko'paytmasi: -16"
+      },
+      {
+        "id": "q2-12",
+        "text": "x^2 + 5x = 0 tenglamaning katta ildizini toping.",
+        "options": ["0", "-5", "5", "1"],
+        "correctOptionIndex": 0,
+        "explanation": "x(x + 5) = 0 => x=0 yoki x=-5. Katta ildiz 0."
+      },
+      {
+        "id": "q2-13",
+        "text": "Agar x^2 - 8x + k = 0 tenglamaning ildizlaridan biri 3 bo'lsa, k ni toping.",
+        "options": ["15", "12", "-15", "9"],
+        "correctOptionIndex": 0,
+        "explanation": "3^2 - 8(3) + k = 0 => 9 - 24 + k = 0 => k = 15"
+      },
+      {
+        "id": "q2-14",
+        "text": "2x^2 + 5x - 3 = 0 tenglamaning ildizlarini toping.",
+        "options": ["1/2 va -3", "-1/2 va 3", "1 va -3", "2 va -3"],
+        "correctOptionIndex": 0,
+        "explanation": "D = 25 - 4(2)(-3) = 49. x = (-5 +- 7) / 4 => 2/4=0.5 va -12/4=-3"
+      },
+      {
+        "id": "q2-15",
+        "text": "x^2 + 4 = 0 tenglama haqiqiy sonlar sohasida:",
+        "options": ["Yechimga ega emas", "x = +-2", "x = 2", "x = -2"],
+        "correctOptionIndex": 0,
+        "explanation": "x^2 = -4 bo'lgani sababli haqiqiy yechim yo'q."
+      },
+      {
+        "id": "q2-16",
+        "text": "x^2 - 25x = 0 tenglamaning ildizlari nechta?",
+        "options": ["2 ta", "1 ta", "ildizi yo'q", "3 ta"],
+        "correctOptionIndex": 0,
+        "explanation": "x = 0 va x = 25 (2 ta ildiz)"
+      },
+      {
+        "id": "q2-17",
+        "text": "Agar ax^2 + bx + c = 0 da a + b + c = 0 bo'lsa, ildizlardan biri har doim nechaga teng?",
+        "options": ["1", "0", "-1", "c/a"],
+        "correctOptionIndex": 0,
+        "explanation": "x=1 qo'yilganda a(1)^2 + b(1) + c = a+b+c = 0 bo'ladi, demak x1 = 1."
+      },
+      {
+        "id": "q2-18",
+        "text": "Agar ax^2 + bx + c = 0 da a - b + c = 0 bo'lsa, ildizlardan biri nechaga teng?",
+        "options": ["-1", "1", "0", "-c/a"],
+        "correctOptionIndex": 0,
+        "explanation": "x = -1 bo'ladi."
+      },
+      {
+        "id": "q2-19",
+        "text": "(x - 4)(x + 2) = 0 tenglamaning ildizlari yig'indisini toping.",
+        "options": ["2", "-2", "4", "-4"],
+        "correctOptionIndex": 0,
+        "explanation": "x1 = 4, x2 = -2. Yig'indisi: 4 + (-2) = 2"
+      },
+      {
+        "id": "q2-20",
+        "text": "x^2 - 14x + 49 = 0 tenglamaning ildizini toping.",
+        "options": ["7", "-7", "14", "49"],
+        "correctOptionIndex": 0,
+        "explanation": "(x - 7)^2 = 0 => x = 7"
+      }
+    ]
+  }
+]
+
