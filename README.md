@@ -34,6 +34,28 @@ Vite + React + TypeScript + Tailwind CSS asosida yaratilgan, Telegram Mini App v
 
 ---
 
+## 📚 O'tilgan Mavzular va Testlar Bazasi
+
+Platformada aynan o'tilgan dolzarb mavzular bo'yicha testlar to'plami tuzilgan:
+1. **1-Dars: Kasrlarni qo'shish va ayirish**
+   - Maxrajlari bir xil va har xil bo'lgan oddiy kasrlar ustida amallar
+   - Aralash sonlarni qo'shish va ayirish, butundan kasrni ayirish
+   - O'nli va oddiy kasrlar aralash ifodalari
+2. **2-Dars: Kasrlarni ko'paytirish va bo'lish**
+   - Oddiy kasrlar va aralash sonlarni ko'paytirish, qisqartirish
+   - Bo'lish amali, teskari kasr tushunchasi
+   - Sonning qismini topish va qismiga ko'ra sonni topish
+3. **3-Dars: Qisqa ko'paytirish formulalari: $(a+b)^2$ va $(a-b)^2$**
+   - Yig'indining kvadrati: $(a+b)^2 = a^2 + 2ab + b^2$
+   - Ayirmaning kvadrati: $(a-b)^2 = a^2 - 2ab + b^2$
+   - To'la kvadratga ajratish, algebraik ifodalarni soddalashtirish
+4. **4-Dars: Kasrlar va qisqa ko'paytirish (Umumlashtiruvchi test)**
+   - Kasrlar va $(a \pm b)^2$ formulalarini birgalikda qo'llashga doir amaliy va nazariy masalalar
+
+> **Eslatma:** Har bir darsda 20 tadan ortiq (100 tagacha kengaytiriladigan) savollar bazasi mavjud. O'quvchi test boshlaganda **Fisher-Yates algoritmi** orqali har doim tasodifiy **20 ta savol** tanlab beriladi.
+
+---
+
 ## 👥 Foydalanuvchilar va Kirish ma'lumotlari
 
 ### 🛡️ Administrator hisobi:
@@ -172,3 +194,4 @@ Vercel havolangiz tayyor bo'lgach (masalan: `https://ntamath.vercel.app`):
 4. Vercel havolangizni yuboring: `https://ntamath.vercel.app`.
 5. Tugma nomini yozing (masalan: `Test Topshirish 📝`).
 6. Endi barcha foydalanuvchilar botingizga kirib, to'g'ridan-to'g'ri WebApp-ni ochishi va test topshirishi mumkin!
+

@@ -2,338 +2,706 @@
   {
     "id": "lesson-1",
     "number": 1,
-    "title": "1-Dars: Haqiqiy sonlar va algebraik ifodalar",
-    "description": "Natural, butun, ratsional va haqiqiy sonlar ustida amallar, qisqa ko'paytirish formulalari",
+    "title": "1-Dars: Kasrlarni qo'shish va ayirish",
+    "description": "Oddiy kasrlar, aralash sonlar va umumiy maxrajga keltirish orqali qo'shish va ayirish amallari",
     "durationMinutes": 30,
-    "createdAt": "2026-11-01T10:00:00.000Z",
+    "createdAt": "2026-11-05T10:00:00.000Z",
     "questions": [
       {
-        "id": "q1-1",
-        "text": "Hisoblang: 15 - 3 * (4 - 7) + 2^3",
-        "options": ["32", "14", "26", "24"],
-        "correctOptionIndex: ": 0,
+        "id": "k1-1",
+        "text": "Hisoblang: 3/7 + 2/7",
+        "options": ["5/7", "5/14", "6/7", "1/7"],
         "correctOptionIndex": 0,
-        "explanation": "15 - 3*(-3) + 8 = 15 + 9 + 8 = 32"
+        "explanation": "Maxrajlari bir xil: (3+2)/7 = 5/7"
       },
       {
-        "id": "q1-2",
-        "text": "Agar a + b = 7 va ab = 10 bo'lsa, a^2 + b^2 ning qiymatini toping.",
-        "options": ["29", "39", "49", "19"],
+        "id": "k1-2",
+        "text": "Hisoblang: 9/13 - 4/13",
+        "options": ["5/13", "5/0", "13/13", "3/13"],
         "correctOptionIndex": 0,
-        "explanation": "a^2 + b^2 = (a+b)^2 - 2ab = 49 - 20 = 29"
+        "explanation": "Maxrajlari bir xil: (9-4)/13 = 5/13"
       },
       {
-        "id": "q1-3",
-        "text": "Kasrni qisqartiring: (x^2 - 9) / (x^2 + 6x + 9)",
-        "options": ["(x - 3) / (x + 3)", "(x + 3) / (x - 3)", "(x - 9) / (x + 9)", "1 / (6x)"],
+        "id": "k1-3",
+        "text": "Hisoblang: 1/2 + 1/3",
+        "options": ["5/6", "2/5", "1/6", "5/5"],
         "correctOptionIndex": 0,
-        "explanation": "(x-3)(x+3) / (x+3)^2 = (x-3)/(x+3)"
+        "explanation": "Umumiy maxraj 6: 3/6 + 2/6 = 5/6"
       },
       {
-        "id": "q1-4",
-        "text": "Hisoblang: sqrt(75) - sqrt(27) + sqrt(12)",
-        "options": ["4*sqrt(3)", "2*sqrt(3)", "6*sqrt(3)", "3*sqrt(3)"],
+        "id": "k1-4",
+        "text": "Hisoblang: 3/4 - 1/6",
+        "options": ["7/12", "2/2", "1/12", "5/12"],
         "correctOptionIndex": 0,
-        "explanation": "5*sqrt(3) - 3*sqrt(3) + 2*sqrt(3) = 4*sqrt(3)"
+        "explanation": "Umumiy maxraj 12: 9/12 - 2/12 = 7/12"
       },
       {
-        "id": "q1-5",
-        "text": "Sonning 40% i 80 ga teng bo'lsa, shu sonning 15% ini toping.",
-        "options": ["30", "25", "35", "40"],
+        "id": "k1-5",
+        "text": "Hisoblang: 2/5 + 3/10",
+        "options": ["7/10", "5/15", "1/2", "4/5"],
         "correctOptionIndex": 0,
-        "explanation": "Son: 80 / 0.4 = 200. Uning 15% i: 200 * 0.15 = 30"
+        "explanation": "Umumiy maxraj 10: 4/10 + 3/10 = 7/10"
       },
       {
-        "id": "q1-6",
-        "text": "Quyidagi sonlardan qaysi biri eng katta: 2^60, 3^40, 4^30, 5^20?",
-        "options": ["3^40", "2^60", "4^30", "5^20"],
+        "id": "k1-6",
+        "text": "Hisoblang: 1 - 5/8",
+        "options": ["3/8", "5/8", "1/8", "7/8"],
         "correctOptionIndex": 0,
-        "explanation": "Darajalarni 10-darajaga keltiramiz: 2^60=(2^6)^10=64^10; 3^40=(3^4)^10=81^10; 4^30=64^10; 5^20=25^10. Eng kattasi 81^10 = 3^40"
+        "explanation": "1 = 8/8; 8/8 - 5/8 = 3/8"
       },
       {
-        "id": "q1-7",
-        "text": "Tenglamani yeching: 2x - 5 = 3x + 4",
-        "options": ["x = -9", "x = 9", "x = -1", "x = 1"],
+        "id": "k1-7",
+        "text": "Hisoblang: 2 1/3 + 1 1/2",
+        "options": ["3 5/6", "3 2/5", "4 1/6", "3 1/6"],
         "correctOptionIndex": 0,
-        "explanation": "2x - 3x = 4 + 5 => -x = 9 => x = -9"
+        "explanation": "2 + 1 = 3; 1/3 + 1/2 = 2/6 + 3/6 = 5/6; Natija: 3 5/6"
       },
       {
-        "id": "q1-8",
-        "text": "Tub sonlar qatorini ko'rsating:",
-        "options": ["2, 3, 5, 7, 11", "1, 2, 3, 5, 7", "2, 4, 6, 8, 10", "3, 5, 9, 11, 13"],
+        "id": "k1-8",
+        "text": "Hisoblang: 4 1/4 - 1 3/4",
+        "options": ["2 1/2", "3 1/2", "2 3/4", "3"],
         "correctOptionIndex": 0,
-        "explanation": "1 tub son emas, 9 va 4 murakkab sonlar."
+        "explanation": "4 1/4 = 17/4, 1 3/4 = 7/4; 17/4 - 7/4 = 10/4 = 5/2 = 2 1/2"
       },
       {
-        "id": "q1-9",
-        "text": "Hisoblang: |-12| + | -5 | - | -8 |",
-        "options": ["9", "25", "-9", "15"],
+        "id": "k1-9",
+        "text": "Hisoblang: 5 - 2 3/7",
+        "options": ["2 4/7", "3 4/7", "2 3/7", "3 3/7"],
         "correctOptionIndex": 0,
-        "explanation": "12 + 5 - 8 = 9"
+        "explanation": "5 = 4 7/7; 4 7/7 - 2 3/7 = 2 4/7"
       },
       {
-        "id": "q1-10",
-        "text": "Agar x = 3 bo'lsa, 2x^2 - 4x + 5 ning qiymati nechaga teng?",
-        "options": ["11", "15", "9", "7"],
+        "id": "k1-10",
+        "text": "Hisoblang: 7/15 + 4/9",
+        "options": ["41/45", "11/24", "43/45", "37/45"],
         "correctOptionIndex": 0,
-        "explanation": "2*(9) - 4*(3) + 5 = 18 - 12 + 5 = 11"
+        "explanation": "Umumiy maxraj 45: 21/45 + 20/45 = 41/45"
       },
       {
-        "id": "q1-11",
-        "text": "Kasrning maxrajini irratsionallikdan qutqaring: 6 / sqrt(3)",
-        "options": ["2*sqrt(3)", "3*sqrt(3)", "6*sqrt(3)", "sqrt(3)"],
+        "id": "k1-11",
+        "text": "Hisoblang: 11/12 - 5/8",
+        "options": ["7/24", "6/4", "1/4", "5/24"],
         "correctOptionIndex": 0,
-        "explanation": "6*sqrt(3) / 3 = 2*sqrt(3)"
+        "explanation": "Umumiy maxraj 24: 22/24 - 15/24 = 7/24"
       },
       {
-        "id": "q1-12",
-        "text": "72 va 108 sonlarining EKUB ini toping.",
-        "options": ["36", "18", "72", "24"],
+        "id": "k1-12",
+        "text": "Amalni bajaring: 5/6 - 1/3 + 1/2",
+        "options": ["1", "2/3", "4/6", "5/6"],
         "correctOptionIndex": 0,
-        "explanation": "72 = 36 * 2, 108 = 36 * 3. EKUB(72, 108) = 36"
+        "explanation": "5/6 - 2/6 + 3/6 = 6/6 = 1"
       },
       {
-        "id": "q1-13",
-        "text": "12 va 18 sonlarining EKUK ini toping.",
-        "options": ["36", "72", "54", "24"],
+        "id": "k1-13",
+        "text": "Tenglamani yeching: x + 1/4 = 7/8",
+        "options": ["5/8", "3/8", "6/8", "1/2"],
         "correctOptionIndex": 0,
-        "explanation": "EKUK(12, 18) = 36"
+        "explanation": "x = 7/8 - 2/8 = 5/8"
       },
       {
-        "id": "q1-14",
-        "text": "Ifodani soddalashtiring: (a - b)^2 + 2ab",
-        "options": ["a^2 + b^2", "a^2 - b^2", "(a + b)^2", "a^2 + 4ab + b^2"],
+        "id": "k1-14",
+        "text": "Tenglamani yeching: 5/6 - x = 1/2",
+        "options": ["1/3", "1/6", "2/3", "1/4"],
         "correctOptionIndex": 0,
-        "explanation": "a^2 - 2ab + b^2 + 2ab = a^2 + b^2"
+        "explanation": "x = 5/6 - 3/6 = 2/6 = 1/3"
       },
       {
-        "id": "q1-15",
-        "text": "Proporsiyadan x ni toping: x / 4 = 15 / 6",
-        "options": ["10", "12", "8", "6"],
+        "id": "k1-15",
+        "text": "Hisoblang: 0.5 + 1/4",
+        "options": ["3/4 (yoki 0.75)", "1/2", "0.6", "4/5"],
         "correctOptionIndex": 0,
-        "explanation": "x = 4 * 15 / 6 = 60 / 6 = 10"
+        "explanation": "0.5 = 2/4; 2/4 + 1/4 = 3/4 = 0.75"
       },
       {
-        "id": "q1-16",
-        "text": "Hisoblang: (1/2 + 1/3) : 5/6",
-        "options": ["1", "5/6", "6/5", "25/36"],
+        "id": "k1-16",
+        "text": "Hisoblang: 1.2 - 3/5",
+        "options": ["0.6 (yoki 3/5)", "0.5", "0.7", "0.4"],
         "correctOptionIndex": 0,
-        "explanation": "(3/6 + 2/6) : 5/6 = (5/6) : (5/6) = 1"
+        "explanation": "3/5 = 0.6; 1.2 - 0.6 = 0.6"
       },
       {
-        "id": "q1-17",
-        "text": "Uchburchakning ichki burchaklari yig'indisi nechaga teng?",
-        "options": ["180°", "360°", "90°", "270°"],
+        "id": "k1-17",
+        "text": "Hisoblang: 3 2/5 + 4 1/3",
+        "options": ["7 11/15", "7 3/8", "7 2/15", "8 1/15"],
         "correctOptionIndex": 0,
-        "explanation": "Ixtiyoriy yassi uchburchak ichki burchaklari yig'indisi 180 gradus."
+        "explanation": "3+4=7; 6/15 + 5/15 = 11/15; Jami: 7 11/15"
       },
       {
-        "id": "q1-18",
-        "text": "Tengsizlikni yeching: 3x - 7 < 8",
-        "options": ["x < 5", "x > 5", "x < 1/3", "x > 15"],
+        "id": "k1-18",
+        "text": "Hisoblang: 6 1/6 - 2 5/12",
+        "options": ["3 3/4", "3 7/12", "4 1/4", "3 5/12"],
         "correctOptionIndex": 0,
-        "explanation": "3x < 15 => x < 5"
+        "explanation": "6 2/12 - 2 5/12 = 5 14/12 - 2 5/12 = 3 9/12 = 3 3/4"
       },
       {
-        "id": "q1-19",
-        "text": "Hisoblang: (-2)^3 * (-3)^2",
-        "options": ["-72", "72", "-36", "36"],
+        "id": "k1-19",
+        "text": "Uchta kasrning yig'indisini toping: 1/2 + 1/4 + 1/8",
+        "options": ["7/8", "3/8", "5/8", "1"],
         "correctOptionIndex": 0,
-        "explanation": "(-8) * 9 = -72"
+        "explanation": "4/8 + 2/8 + 1/8 = 7/8"
       },
       {
-        "id": "q1-20",
-        "text": "Agar to'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm bo'lsa, uning perimetrini toping.",
-        "options": ["26 sm", "40 sm", "13 sm", "20 sm"],
+        "id": "k1-20",
+        "text": "Hisoblang: 17/20 - (1/4 + 2/5)",
+        "options": ["1/5", "1/4", "3/20", "1/10"],
         "correctOptionIndex": 0,
-        "explanation": "P = 2 * (8 + 5) = 26 sm"
+        "explanation": "1/4 + 2/5 = 5/20 + 8/20 = 13/20; 17/20 - 13/20 = 4/20 = 1/5"
       },
       {
-        "id": "q1-21",
-        "text": "Hisoblang: log2(16) + log3(27)",
-        "options": ["7", "6", "12", "5"],
+        "id": "k1-21",
+        "text": "Hisoblang: 2/3 - 1/7",
+        "options": ["11/21", "1/4", "13/21", "9/21"],
         "correctOptionIndex": 0,
-        "explanation": "4 + 3 = 7"
+        "explanation": "14/21 - 3/21 = 11/21"
       },
       {
-        "id": "q1-22",
-        "text": "y = 2x + 3 chiziqli funksiya grafigi qaysi nuqtadan o'tadi?",
-        "options": ["(1, 5)", "(2, 5)", "(0, 2)", "(-1, 2)"],
+        "id": "k1-22",
+        "text": "Qaysi ifodaning qiymati 1 ga teng?",
+        "options": ["5/8 + 3/8", "2/3 + 2/3", "4/5 + 2/5", "1/2 + 1/3"],
         "correctOptionIndex": 0,
-        "explanation": "x=1 da y = 2(1)+3 = 5"
+        "explanation": "5/8 + 3/8 = 8/8 = 1"
       },
       {
-        "id": "q1-23",
-        "text": "Kvadrat tenglamaning diskriminantini toping: x^2 - 5x + 6 = 0",
-        "options": ["1", "49", "25", "5"],
+        "id": "k1-23",
+        "text": "Hisoblang: 4 2/9 - 1 5/9",
+        "options": ["2 2/3", "3 3/9", "2 4/9", "3 1/3"],
         "correctOptionIndex": 0,
-        "explanation": "D = b^2 - 4ac = 25 - 24 = 1"
+        "explanation": "3 11/9 - 1 5/9 = 2 6/9 = 2 2/3"
       },
       {
-        "id": "q1-24",
-        "text": "Arifmetik progressiyada a1 = 3, d = 4 bo'lsa, a10 ni toping.",
-        "options": ["39", "43", "36", "40"],
+        "id": "k1-24",
+        "text": "Hisoblang: 5/18 + 7/12",
+        "options": ["31/36", "12/30", "29/36", "11/18"],
         "correctOptionIndex": 0,
-        "explanation": "a10 = a1 + 9d = 3 + 36 = 39"
+        "explanation": "Umumiy maxraj 36: 10/36 + 21/36 = 31/36"
       },
       {
-        "id": "q1-25",
-        "text": "1 dan 10 gacha bo'lgan natural sonlar yig'indisini toping.",
-        "options": ["55", "50", "45", "60"],
+        "id": "k1-25",
+        "text": "Kasrlar ayirmasini hisoblang: 13/15 - 9/20",
+        "options": ["25/60 = 5/12", "4/5", "7/30", "11/60"],
         "correctOptionIndex": 0,
-        "explanation": "10 * 11 / 2 = 55"
+        "explanation": "Umumiy maxraj 60: 52/60 - 27/60 = 25/60 = 5/12"
       }
     ]
   },
   {
     "id": "lesson-2",
     "number": 2,
-    "title": "2-Dars: Kvadrat tenglamalar va Viyet teoremasi",
-    "description": "Kvadrat tenglama ildizlari, to'liqsiz kvadrat tenglamalar, diskriminant va Viyet munosabatlari",
+    "title": "2-Dars: Kasrlarni ko'paytirish va bo'lish",
+    "description": "Oddiy kasrlar va aralash sonlarni ko'paytirish, qisqartirish, teskari kasr va bo'lish amallari",
     "durationMinutes": 30,
-    "createdAt": "2026-11-02T10:00:00.000Z",
+    "createdAt": "2026-11-05T10:00:00.000Z",
     "questions": [
       {
-        "id": "q2-1",
-        "text": "x^2 - 7x + 12 = 0 tenglamaning ildizlarini toping.",
-        "options": ["3 va 4", "2 va 6", "-3 va -4", "1 va 12"],
+        "id": "k2-1",
+        "text": "Hisoblang: 2/3 * 9/10",
+        "options": ["3/5", "18/30", "1/5", "4/5"],
         "correctOptionIndex": 0,
-        "explanation": "x1+x2=7, x1*x2=12 => x1=3, x2=4"
+        "explanation": "Qisqartiriladi: (2*9)/(3*10) = 3/5"
       },
       {
-        "id": "q2-2",
-        "text": "2x^2 - 8 = 0 tenglamaning musbat ildizini toping.",
-        "options": ["2", "4", "sqrt(2)", "8"],
+        "id": "k2-2",
+        "text": "Hisoblang: 4/7 * 21/16",
+        "options": ["3/4", "4/3", "7/16", "1/2"],
         "correctOptionIndex": 0,
-        "explanation": "2x^2 = 8 => x^2 = 4 => x = 2"
+        "explanation": "(4*21)/(7*16) = (1*3)/(1*4) = 3/4"
       },
       {
-        "id": "q2-3",
-        "text": "x^2 + px + q = 0 tenglama ildizlari 2 va -5 bo'lsa, p ni toping.",
-        "options": ["3", "-3", "-10", "10"],
+        "id": "k2-3",
+        "text": "Hisoblang: 12 * 3/4",
+        "options": ["9", "16", "8", "12"],
         "correctOptionIndex": 0,
-        "explanation": "x1+x2 = -p => 2 + (-5) = -3 => -p = -3 => p = 3"
+        "explanation": "(12 * 3) / 4 = 36 / 4 = 9"
       },
       {
-        "id": "q2-4",
-        "text": "x^2 - 6x + 9 = 0 tenglama nechta turli haqiqiy ildizga ega?",
-        "options": ["1 ta (karrali)", "2 ta turli", "ildizga ega emas", "cheksiz ko'p"],
+        "id": "k2-4",
+        "text": "Hisoblang: 5/8 * 16",
+        "options": ["10", "12", "8", "5"],
         "correctOptionIndex": 0,
-        "explanation": "D = 36 - 36 = 0, bitta ildiz x = 3"
+        "explanation": "16 va 8 qisqarib 2 qoladi: 5 * 2 = 10"
       },
       {
-        "id": "q2-5",
-        "text": "Agar kvadrat tenglama D < 0 bo'lsa, uning haqiqiy sonlar to'plamidagi ildizlari soni nechta?",
-        "options": ["0 ta", "1 ta", "2 ta", "aniqlab bo'lmaydi"],
+        "id": "k2-5",
+        "text": "Hisoblang: 1 1/2 * 2 2/3",
+        "options": ["4", "3 1/3", "5", "2 1/3"],
         "correctOptionIndex": 0,
-        "explanation": "D < 0 da haqiqiy ildizlar mavjud emas."
+        "explanation": "3/2 * 8/3 = 24/6 = 4"
       },
       {
-        "id": "q2-6",
-        "text": "3x^2 - 12x = 0 tenglamaning ildizlari yig'indisini toping.",
-        "options": ["4", "0", "-4", "12"],
+        "id": "k2-6",
+        "text": "Hisoblang: 3/4 : 9/8",
+        "options": ["2/3", "3/2", "27/32", "1/2"],
         "correctOptionIndex": 0,
-        "explanation": "3x(x - 4) = 0 => x=0 yoki x=4. Yig'indisi: 4"
+        "explanation": "3/4 * 8/9 = (3*8)/(4*9) = 2/3"
       },
       {
-        "id": "q2-7",
-        "text": "x^2 - 11x + 30 = 0 tenglamaning kichik ildizini toping.",
-        "options": ["5", "6", "-5", "-6"],
+        "id": "k2-7",
+        "text": "Hisoblang: 6 : 2/3",
+        "options": ["9", "4", "1", "12"],
         "correctOptionIndex": 0,
-        "explanation": "Ildizlari 5 va 6. Kichigi 5."
+        "explanation": "6 * 3/2 = 18 / 2 = 9"
       },
       {
-        "id": "q2-8",
-        "text": "x1 va x2 sonlari x^2 - 4x + 1 = 0 ning ildizlari bo'lsa, 1/x1 + 1/x2 ni hisoblang.",
-        "options": ["4", "1/4", "-4", "1"],
+        "id": "k2-8",
+        "text": "Hisoblang: 4/5 : 2",
+        "options": ["2/5", "8/5", "4/10", "1/5"],
         "correctOptionIndex": 0,
-        "explanation": "(x1+x2) / (x1*x2) = 4 / 1 = 4"
+        "explanation": "4/5 * 1/2 = 2/5"
       },
       {
-        "id": "q2-9",
-        "text": "Ildizlari 1 va 9 bo'lgan keltirilgan kvadrat tenglamani tuzing.",
-        "options": ["x^2 - 10x + 9 = 0", "x^2 + 10x + 9 = 0", "x^2 - 9x + 10 = 0", "x^2 + 9x - 10 = 0"],
+        "id": "k2-9",
+        "text": "Hisoblang: 3 1/3 : 1 1/9",
+        "options": ["3", "10/9", "9/10", "2 1/3"],
         "correctOptionIndex": 0,
-        "explanation": "x^2 - (1+9)x + 1*9 = x^2 - 10x + 9 = 0"
+        "explanation": "10/3 : 10/9 = 10/3 * 9/10 = 3"
       },
       {
-        "id": "q2-10",
-        "text": "4x^2 + 12x + 9 ifodani qisqa ko'paytirish formulasi ko'rinishida yozing.",
-        "options": ["(2x + 3)^2", "(2x - 3)^2", "(4x + 3)^2", "(2x + 9)^2"],
+        "id": "k2-10",
+        "text": "5/7 kasriga teskari sonni toping:",
+        "options": ["7/5 (yoki 1 2/5)", "-5/7", "-7/5", "1/7"],
         "correctOptionIndex": 0,
-        "explanation": "(2x)^2 + 2*2x*3 + 3^2 = (2x+3)^2"
+        "explanation": "a/b ning teskarisi b/a, ya'ni 7/5"
       },
       {
-        "id": "q2-11",
-        "text": "x^2 - 16 = 0 tenglamaning ildizlari ko'paytmasini toping.",
-        "options": ["-16", "16", "0", "4"],
+        "id": "k2-11",
+        "text": "Hisoblang: (1/2 + 1/3) * 6/5",
+        "options": ["1", "5/6", "6/5", "2/3"],
         "correctOptionIndex": 0,
-        "explanation": "Ildizlari: 4 va -4. Ko'paytmasi: -16"
+        "explanation": "5/6 * 6/5 = 1"
       },
       {
-        "id": "q2-12",
-        "text": "x^2 + 5x = 0 tenglamaning katta ildizini toping.",
-        "options": ["0", "-5", "5", "1"],
+        "id": "k2-12",
+        "text": "Hisoblang: (3/4 - 1/2) : 1/8",
+        "options": ["2", "1/2", "1/4", "4"],
         "correctOptionIndex": 0,
-        "explanation": "x(x + 5) = 0 => x=0 yoki x=-5. Katta ildiz 0."
+        "explanation": "1/4 : 1/8 = 1/4 * 8/1 = 2"
       },
       {
-        "id": "q2-13",
-        "text": "Agar x^2 - 8x + k = 0 tenglamaning ildizlaridan biri 3 bo'lsa, k ni toping.",
-        "options": ["15", "12", "-15", "9"],
+        "id": "k2-13",
+        "text": "Hisoblang: (2/3)^2 * 9/4",
+        "options": ["1", "4/9", "9/4", "2/3"],
         "correctOptionIndex": 0,
-        "explanation": "3^2 - 8(3) + k = 0 => 9 - 24 + k = 0 => k = 15"
+        "explanation": "4/9 * 9/4 = 1"
       },
       {
-        "id": "q2-14",
-        "text": "2x^2 + 5x - 3 = 0 tenglamaning ildizlarini toping.",
-        "options": ["1/2 va -3", "-1/2 va 3", "1 va -3", "2 va -3"],
+        "id": "k2-14",
+        "text": "Hisoblang: (1/2)^3 : 1/4",
+        "options": ["1/2", "1/4", "1/8", "2"],
         "correctOptionIndex": 0,
-        "explanation": "D = 25 - 4(2)(-3) = 49. x = (-5 +- 7) / 4 => 2/4=0.5 va -12/4=-3"
+        "explanation": "1/8 * 4/1 = 4/8 = 1/2"
       },
       {
-        "id": "q2-15",
-        "text": "x^2 + 4 = 0 tenglama haqiqiy sonlar sohasida:",
-        "options": ["Yechimga ega emas", "x = +-2", "x = 2", "x = -2"],
+        "id": "k2-15",
+        "text": "Tenglamani yeching: 2/5 * x = 4/15",
+        "options": ["2/3", "3/2", "8/75", "1/3"],
         "correctOptionIndex": 0,
-        "explanation": "x^2 = -4 bo'lgani sababli haqiqiy yechim yo'q."
+        "explanation": "x = 4/15 : 2/5 = 4/15 * 5/2 = 2/3"
       },
       {
-        "id": "q2-16",
-        "text": "x^2 - 25x = 0 tenglamaning ildizlari nechta?",
-        "options": ["2 ta", "1 ta", "ildizi yo'q", "3 ta"],
+        "id": "k2-16",
+        "text": "Tenglamani yeching: x : 3/4 = 8/9",
+        "options": ["2/3", "3/2", "32/27", "1/3"],
         "correctOptionIndex": 0,
-        "explanation": "x = 0 va x = 25 (2 ta ildiz)"
+        "explanation": "x = 8/9 * 3/4 = 2/3"
       },
       {
-        "id": "q2-17",
-        "text": "Agar ax^2 + bx + c = 0 da a + b + c = 0 bo'lsa, ildizlardan biri har doim nechaga teng?",
-        "options": ["1", "0", "-1", "c/a"],
+        "id": "k2-17",
+        "text": "Sonning 3/4 qismi 24 ga teng bo'lsa, sonning o'zini toping.",
+        "options": ["32", "18", "28", "30"],
         "correctOptionIndex": 0,
-        "explanation": "x=1 qo'yilganda a(1)^2 + b(1) + c = a+b+c = 0 bo'ladi, demak x1 = 1."
+        "explanation": "24 : 3/4 = 24 * 4/3 = 32"
       },
       {
-        "id": "q2-18",
-        "text": "Agar ax^2 + bx + c = 0 da a - b + c = 0 bo'lsa, ildizlardan biri nechaga teng?",
-        "options": ["-1", "1", "0", "-c/a"],
+        "id": "k2-18",
+        "text": "60 sonining 2/5 qismini toping.",
+        "options": ["24", "30", "20", "25"],
         "correctOptionIndex": 0,
-        "explanation": "x = -1 bo'ladi."
+        "explanation": "60 * 2/5 = 12 * 2 = 24"
       },
       {
-        "id": "q2-19",
-        "text": "(x - 4)(x + 2) = 0 tenglamaning ildizlari yig'indisini toping.",
-        "options": ["2", "-2", "4", "-4"],
+        "id": "k2-19",
+        "text": "Hisoblang: 15/16 * 4/5 * 8/9",
+        "options": ["2/3", "3/4", "1/2", "5/6"],
         "correctOptionIndex": 0,
-        "explanation": "x1 = 4, x2 = -2. Yig'indisi: 4 + (-2) = 2"
+        "explanation": "(15*4*8)/(16*5*9) = 480 / 720 = 2/3"
       },
       {
-        "id": "q2-20",
-        "text": "x^2 - 14x + 49 = 0 tenglamaning ildizini toping.",
-        "options": ["7", "-7", "14", "49"],
+        "id": "k2-20",
+        "text": "Hisoblang: 7/9 : 14/27",
+        "options": ["3/2 (yoki 1.5)", "2/3", "1/2", "4/3"],
         "correctOptionIndex": 0,
-        "explanation": "(x - 7)^2 = 0 => x = 7"
+        "explanation": "7/9 * 27/14 = (1*3)/(1*2) = 3/2"
+      },
+      {
+        "id": "k2-21",
+        "text": "Hisoblang: 2 1/4 * 1 1/3",
+        "options": ["3", "2 1/12", "3 1/3", "4"],
+        "correctOptionIndex": 0,
+        "explanation": "9/4 * 4/3 = 3"
+      },
+      {
+        "id": "k2-22",
+        "text": "Hisoblang: 4 1/2 : 1 1/2",
+        "options": ["3", "4", "2", "6"],
+        "correctOptionIndex": 0,
+        "explanation": "9/2 : 3/2 = 9/2 * 2/3 = 3"
+      },
+      {
+        "id": "k2-23",
+        "text": "Hisoblang: (3/5)^2 : (9/25)",
+        "options": ["1", "9/25", "25/9", "3/5"],
+        "correctOptionIndex": 0,
+        "explanation": "9/25 : 9/25 = 1"
+      },
+      {
+        "id": "k2-24",
+        "text": "Hisoblang: 0.25 * 8/5",
+        "options": ["2/5 (yoki 0.4)", "1/5", "0.5", "1/2"],
+        "correctOptionIndex": 0,
+        "explanation": "0.25 = 1/4; 1/4 * 8/5 = 2/5 = 0.4"
+      },
+      {
+        "id": "k2-25",
+        "text": "Hisoblang: 1 2/7 * (7/9 : 2/3)",
+        "options": ["1 1/2 (yoki 3/2)", "1", "2", "4/3"],
+        "correctOptionIndex": 0,
+        "explanation": "7/9 * 3/2 = 7/6; 9/7 * 7/6 = 9/6 = 3/2 = 1 1/2"
+      }
+    ]
+  },
+  {
+    "id": "lesson-3",
+    "number": 3,
+    "title": "3-Dars: Qisqa ko'paytirish formulalari: (a+b)² va (a-b)²",
+    "description": "Yig'indining kvadrati va ayirmaning kvadrati formulalari, to'la kvadratga ajratish va algebraik hisoblashlar",
+    "durationMinutes": 30,
+    "createdAt": "2026-11-05T10:00:00.000Z",
+    "questions": [
+      {
+        "id": "q3-1",
+        "text": "Yig'indining kvadrati formulasini ko'rsating: (a + b)^2 = ?",
+        "options": ["a^2 + 2ab + b^2", "a^2 + b^2", "a^2 + ab + b^2", "a^2 - 2ab + b^2"],
+        "correctOptionIndex": 0,
+        "explanation": "(a+b)^2 = a^2 + 2ab + b^2"
+      },
+      {
+        "id": "q3-2",
+        "text": "Ayirmaning kvadrati formulasini ko'rsating: (a - b)^2 = ?",
+        "options": ["a^2 - 2ab + b^2", "a^2 - b^2", "a^2 - ab + b^2", "a^2 + 2ab + b^2"],
+        "correctOptionIndex": 0,
+        "explanation": "(a-b)^2 = a^2 - 2ab + b^2"
+      },
+      {
+        "id": "q3-3",
+        "text": "Qavslarni oching: (x + 3)^2",
+        "options": ["x^2 + 6x + 9", "x^2 + 9", "x^2 + 3x + 9", "x^2 + 6x + 6"],
+        "correctOptionIndex": 0,
+        "explanation": "x^2 + 2*x*3 + 3^2 = x^2 + 6x + 9"
+      },
+      {
+        "id": "q3-4",
+        "text": "Qavslarni oching: (x - 5)^2",
+        "options": ["x^2 - 10x + 25", "x^2 - 25", "x^2 - 5x + 25", "x^2 + 10x + 25"],
+        "correctOptionIndex": 0,
+        "explanation": "x^2 - 2*x*5 + 5^2 = x^2 - 10x + 25"
+      },
+      {
+        "id": "q3-5",
+        "text": "Qavslarni oching: (2x + 1)^2",
+        "options": ["4x^2 + 4x + 1", "4x^2 + 1", "2x^2 + 4x + 1", "4x^2 + 2x + 1"],
+        "correctOptionIndex": 0,
+        "explanation": "(2x)^2 + 2*(2x)*1 + 1^2 = 4x^2 + 4x + 1"
+      },
+      {
+        "id": "q3-6",
+        "text": "Qavslarni oching: (3a - 2b)^2",
+        "options": ["9a^2 - 12ab + 4b^2", "9a^2 - 4b^2", "9a^2 - 6ab + 4b^2", "6a^2 - 12ab + 4b^2"],
+        "correctOptionIndex": 0,
+        "explanation": "(3a)^2 - 2*(3a)*(2b) + (2b)^2 = 9a^2 - 12ab + 4b^2"
+      },
+      {
+        "id": "q3-7",
+        "text": "Formula yordamida tez hisoblang: 101^2 = (100 + 1)^2",
+        "options": ["10201", "10101", "10200", "10001"],
+        "correctOptionIndex": 0,
+        "explanation": "100^2 + 2*100*1 + 1 = 10000 + 200 + 1 = 10201"
+      },
+      {
+        "id": "q3-8",
+        "text": "Formula yordamida tez hisoblang: 99^2 = (100 - 1)^2",
+        "options": ["9801", "9901", "9810", "9701"],
+        "correctOptionIndex": 0,
+        "explanation": "100^2 - 2*100*1 + 1 = 10000 - 200 + 1 = 9801"
+      },
+      {
+        "id": "q3-9",
+        "text": "Ifodani qisqa ko'paytirish formulasi ko'rinishida yozing: x^2 + 8x + 16",
+        "options": ["(x + 4)^2", "(x + 8)^2", "(x + 2)^2", "(x - 4)^2"],
+        "correctOptionIndex": 0,
+        "explanation": "x^2 + 2*x*4 + 4^2 = (x + 4)^2"
+      },
+      {
+        "id": "q3-10",
+        "text": "Ifodani qisqa ko'paytirish formulasi ko'rinishida yozing: y^2 - 14y + 49",
+        "options": ["(y - 7)^2", "(y + 7)^2", "(y - 14)^2", "(y - 49)^2"],
+        "correctOptionIndex": 0,
+        "explanation": "y^2 - 2*y*7 + 7^2 = (y - 7)^2"
+      },
+      {
+        "id": "q3-11",
+        "text": "Ifodani to'la kvadrat shaklida yozing: 4x^2 - 12x + 9",
+        "options": ["(2x - 3)^2", "(2x + 3)^2", "(4x - 9)^2", "(2x - 9)^2"],
+        "correctOptionIndex": 0,
+        "explanation": "(2x)^2 - 2*(2x)*3 + 3^2 = (2x - 3)^2"
+      },
+      {
+        "id": "q3-12",
+        "text": "Ifodani to'la kvadrat shaklida yozing: 25a^2 + 20ab + 4b^2",
+        "options": ["(5a + 2b)^2", "(5a - 2b)^2", "(25a + 4b)^2", "(5a + 4b)^2"],
+        "correctOptionIndex": 0,
+        "explanation": "(5a)^2 + 2*(5a)*(2b) + (2b)^2 = (5a + 2b)^2"
+      },
+      {
+        "id": "q3-13",
+        "text": "Agar a + b = 7 va ab = 10 bo'lsa, a^2 + b^2 ning qiymatini toping.",
+        "options": ["29", "49", "39", "19"],
+        "correctOptionIndex": 0,
+        "explanation": "a^2 + b^2 = (a+b)^2 - 2ab = 49 - 20 = 29"
+      },
+      {
+        "id": "q3-14",
+        "text": "Agar a - b = 6 va ab = 5 bo'lsa, a^2 + b^2 ning qiymatini toping.",
+        "options": ["46", "36", "26", "56"],
+        "correctOptionIndex": 0,
+        "explanation": "a^2 + b^2 = (a-b)^2 + 2ab = 36 + 10 = 46"
+      },
+      {
+        "id": "q3-15",
+        "text": "Agar x + 1/x = 4 bo'lsa, x^2 + 1/x^2 ning qiymatini hisoblang.",
+        "options": ["14", "16", "18", "12"],
+        "correctOptionIndex": 0,
+        "explanation": "(x + 1/x)^2 = x^2 + 2 + 1/x^2 = 16 => x^2 + 1/x^2 = 14"
+      },
+      {
+        "id": "q3-16",
+        "text": "Agar x - 1/x = 3 bo'lsa, x^2 + 1/x^2 ning qiymatini hisoblang.",
+        "options": ["11", "9", "7", "13"],
+        "correctOptionIndex": 0,
+        "explanation": "(x - 1/x)^2 = x^2 - 2 + 1/x^2 = 9 => x^2 + 1/x^2 = 11"
+      },
+      {
+        "id": "q3-17",
+        "text": "Ifodani soddalashtiring: (x + 2)^2 - (x - 2)^2",
+        "options": ["8x", "4x", "2x^2 + 8", "0"],
+        "correctOptionIndex": 0,
+        "explanation": "(x^2 + 4x + 4) - (x^2 - 4x + 4) = 8x"
+      },
+      {
+        "id": "q3-18",
+        "text": "Ifodani soddalashtiring: (a + b)^2 + (a - b)^2",
+        "options": ["2(a^2 + b^2)", "4ab", "2a^2", "2b^2"],
+        "correctOptionIndex": 0,
+        "explanation": "a^2 + 2ab + b^2 + a^2 - 2ab + b^2 = 2a^2 + 2b^2 = 2(a^2 + b^2)"
+      },
+      {
+        "id": "q3-19",
+        "text": "Hisoblang: 52^2 - 2*52*2 + 2^2",
+        "options": ["2500", "2704", "2600", "2400"],
+        "correctOptionIndex": 0,
+        "explanation": "(52 - 2)^2 = 50^2 = 2500"
+      },
+      {
+        "id": "q3-20",
+        "text": "Hisoblang: 37^2 + 2*37*13 + 13^2",
+        "options": ["2500", "2400", "2600", "2700"],
+        "correctOptionIndex": 0,
+        "explanation": "(37 + 13)^2 = 50^2 = 2500"
+      },
+      {
+        "id": "q3-21",
+        "text": "Qavslarni oching: (m^2 + n)^2",
+        "options": ["m^4 + 2m^2n + n^2", "m^4 + n^2", "m^2 + 2mn + n^2", "m^4 + m^2n + n^2"],
+        "correctOptionIndex": 0,
+        "explanation": "(m^2)^2 + 2*m^2*n + n^2 = m^4 + 2m^2n + n^2"
+      },
+      {
+        "id": "q3-22",
+        "text": "Qavslarni oching: (2x - 3y)^2",
+        "options": ["4x^2 - 12xy + 9y^2", "4x^2 - 9y^2", "4x^2 - 6xy + 9y^2", "2x^2 - 12xy + 3y^2"],
+        "correctOptionIndex": 0,
+        "explanation": "4x^2 - 2(2x)(3y) + 9y^2 = 4x^2 - 12xy + 9y^2"
+      },
+      {
+        "id": "q3-23",
+        "text": "Kasrni qisqartiring: (x^2 + 6x + 9) / (x + 3)",
+        "options": ["x + 3", "x - 3", "x + 9", "1"],
+        "correctOptionIndex": 0,
+        "explanation": "(x + 3)^2 / (x + 3) = x + 3"
+      },
+      {
+        "id": "q3-24",
+        "text": "Kasrni qisqartiring: (a^2 - 4a + 4) / (a - 2)",
+        "options": ["a - 2", "a + 2", "a - 4", "1"],
+        "correctOptionIndex": 0,
+        "explanation": "(a - 2)^2 / (a - 2) = a - 2"
+      },
+      {
+        "id": "q3-25",
+        "text": "Ushbu ifodada yulduzcha o'rniga qanday son qo'yilsa, u to'la kvadrat bo'ladi: x^2 + 12x + *",
+        "options": ["36", "24", "144", "12"],
+        "correctOptionIndex": 0,
+        "explanation": "2 * x * b = 12x => b = 6; * = b^2 = 6^2 = 36"
+      }
+    ]
+  },
+  {
+    "id": "lesson-4",
+    "number": 4,
+    "title": "4-Dars: Kasrlar va qisqa ko'paytirish (Umumlashtiruvchi test)",
+    "description": "Kasrlar ustida to'rt amal va (a+b)², (a-b)² formulalarini birgalikda qo'llashga doir aralash test",
+    "durationMinutes": 35,
+    "createdAt": "2026-11-05T10:00:00.000Z",
+    "questions": [
+      {
+        "id": "m4-1",
+        "text": "Hisoblang: (1/2 + 1/3)^2",
+        "options": ["25/36", "5/6", "5/12", "1/6"],
+        "correctOptionIndex": 0,
+        "explanation": "1/2 + 1/3 = 5/6; (5/6)^2 = 25/36"
+      },
+      {
+        "id": "m4-2",
+        "text": "Hisoblang: (3/4 - 1/4)^2",
+        "options": ["1/4", "1/2", "1/16", "1/8"],
+        "correctOptionIndex": 0,
+        "explanation": "3/4 - 1/4 = 2/4 = 1/2; (1/2)^2 = 1/4"
+      },
+      {
+        "id": "m4-3",
+        "text": "Hisoblang: (x + 1/2)^2",
+        "options": ["x^2 + x + 1/4", "x^2 + 1/4", "x^2 + 2x + 1/4", "x^2 + x + 1/2"],
+        "correctOptionIndex": 0,
+        "explanation": "x^2 + 2*x*(1/2) + (1/2)^2 = x^2 + x + 1/4"
+      },
+      {
+        "id": "m4-4",
+        "text": "Hisoblang: (x - 1/3)^2",
+        "options": ["x^2 - 2/3 x + 1/9", "x^2 - 1/9", "x^2 - 1/3 x + 1/9", "x^2 - 2/3 x + 1/3"],
+        "correctOptionIndex": 0,
+        "explanation": "x^2 - 2*x*(1/3) + (1/3)^2 = x^2 - 2/3 x + 1/9"
+      },
+      {
+        "id": "m4-5",
+        "text": "Soddalashtiring: (2a/3 + 3/2)^2",
+        "options": ["4a^2/9 + 2a + 9/4", "4a^2/9 + 9/4", "4a^2/9 + a + 9/4", "2a^2/3 + 3/2"],
+        "correctOptionIndex": 0,
+        "explanation": "(2a/3)^2 + 2*(2a/3)*(3/2) + (3/2)^2 = 4a^2/9 + 2a + 9/4"
+      },
+      {
+        "id": "m4-6",
+        "text": "Hisoblang: 3/5 + 2/3 * 9/10",
+        "options": ["6/5 (yoki 1 1/5)", "1", "4/5", "7/10"],
+        "correctOptionIndex": 0,
+        "explanation": "2/3 * 9/10 = 3/5; 3/5 + 3/5 = 6/5 = 1 1/5"
+      },
+      {
+        "id": "m4-7",
+        "text": "Hisoblang: (5/6 - 1/2) : 2/3",
+        "options": ["1/2", "1/3", "2/3", "3/4"],
+        "correctOptionIndex": 0,
+        "explanation": "5/6 - 3/6 = 2/6 = 1/3; 1/3 : 2/3 = 1/3 * 3/2 = 1/2"
+      },
+      {
+        "id": "m4-8",
+        "text": "Qavslarni oching: (5x + 4)^2",
+        "options": ["25x^2 + 40x + 16", "25x^2 + 16", "25x^2 + 20x + 16", "10x^2 + 40x + 16"],
+        "correctOptionIndex": 0,
+        "explanation": "(5x)^2 + 2*5x*4 + 16 = 25x^2 + 40x + 16"
+      },
+      {
+        "id": "m4-9",
+        "text": "Qavslarni oching: (6a - 5b)^2",
+        "options": ["36a^2 - 60ab + 25b^2", "36a^2 - 25b^2", "36a^2 - 30ab + 25b^2", "12a^2 - 60ab + 10b^2"],
+        "correctOptionIndex": 0,
+        "explanation": "36a^2 - 2*6a*5b + 25b^2 = 36a^2 - 60ab + 25b^2"
+      },
+      {
+        "id": "m4-10",
+        "text": "Hisoblang: 73^2 - 2*73*23 + 23^2",
+        "options": ["2500", "5000", "2400", "2600"],
+        "correctOptionIndex": 0,
+        "explanation": "(73 - 23)^2 = 50^2 = 2500"
+      },
+      {
+        "id": "m4-11",
+        "text": "Hisoblang: 28^2 + 2*28*22 + 22^2",
+        "options": ["2500", "2600", "2400", "5000"],
+        "correctOptionIndex": 0,
+        "explanation": "(28 + 22)^2 = 50^2 = 2500"
+      },
+      {
+        "id": "m4-12",
+        "text": "Agar a + b = 10 va a^2 + b^2 = 58 bo'lsa, ab ko'paytmani toping.",
+        "options": ["21", "42", "18", "25"],
+        "correctOptionIndex": 0,
+        "explanation": "(a+b)^2 = a^2 + 2ab + b^2 => 100 = 58 + 2ab => 2ab = 42 => ab = 21"
+      },
+      {
+        "id": "m4-13",
+        "text": "Agar a - b = 4 va a^2 + b^2 = 26 bo'lsa, ab ko'paytmani toping.",
+        "options": ["5", "10", "6", "8"],
+        "correctOptionIndex": 0,
+        "explanation": "(a-b)^2 = a^2 - 2ab + b^2 => 16 = 26 - 2ab => 2ab = 10 => ab = 5"
+      },
+      {
+        "id": "m4-14",
+        "text": "Kasrni qisqartiring: (4x^2 - 12x + 9) / (2x - 3)",
+        "options": ["2x - 3", "2x + 3", "4x - 9", "1"],
+        "correctOptionIndex": 0,
+        "explanation": "(2x - 3)^2 / (2x - 3) = 2x - 3"
+      },
+      {
+        "id": "m4-15",
+        "text": "Hisoblang: 2 1/3 * 3/7 + 1/2 : 1/4",
+        "options": ["3", "2", "3 1/2", "2 1/2"],
+        "correctOptionIndex": 0,
+        "explanation": "7/3 * 3/7 = 1; 1/2 * 4 = 2; 1 + 2 = 3"
+      },
+      {
+        "id": "m4-16",
+        "text": "Hisoblang: (1 - 1/2) * (1 - 1/3) * (1 - 1/4)",
+        "options": ["1/4", "1/2", "1/3", "3/4"],
+        "correctOptionIndex": 0,
+        "explanation": "1/2 * 2/3 * 3/4 = 1/4"
+      },
+      {
+        "id": "m4-17",
+        "text": "Hisoblang: (1 + 1/2) * (1 + 1/3) * (1 + 1/4)",
+        "options": ["5/2 (yoki 2.5)", "2", "3", "7/4"],
+        "correctOptionIndex": 0,
+        "explanation": "3/2 * 4/3 * 5/4 = 5/2 = 2.5"
+      },
+      {
+        "id": "m4-18",
+        "text": "Ifodani soddalashtiring: (x + 5)^2 - 10x",
+        "options": ["x^2 + 25", "x^2 - 25", "(x - 5)^2", "x^2 + 10x + 25"],
+        "correctOptionIndex": 0,
+        "explanation": "x^2 + 10x + 25 - 10x = x^2 + 25"
+      },
+      {
+        "id": "m4-19",
+        "text": "Ifodani soddalashtiring: (y - 4)^2 + 8y",
+        "options": ["y^2 + 16", "y^2 - 16", "(y + 4)^2", "y^2 + 8y + 16"],
+        "correctOptionIndex": 0,
+        "explanation": "y^2 - 8y + 16 + 8y = y^2 + 16"
+      },
+      {
+        "id": "m4-20",
+        "text": "Amalni bajaring: (3/2)^2 - (1/2)^2",
+        "options": ["2", "1", "4", "8/4"],
+        "correctOptionIndex": 0,
+        "explanation": "9/4 - 1/4 = 8/4 = 2"
       }
     ]
   }
 ]
-
