@@ -140,6 +140,20 @@
     "role": "student"
   },
   {
+    "id": "std-21",
+    "username": "durdona_b",
+    "password": "Durd#2026",
+    "fullName": "Durdona Baxodirova",
+    "role": "student"
+  },
+  {
+    "id": "std-22",
+    "username": "zebo_m",
+    "password": "Zebo#2026",
+    "fullName": "Zebo Mirsaitova",
+    "role": "student"
+  },
+  {
     "id": "admin-1",
     "username": "admin",
     "password": "SuperAdminTest2026!",

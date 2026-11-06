@@ -79,7 +79,7 @@ Platformada o'tilgan barcha mavzular bo'yicha to'liq testlar va har bir misolnin
 - **Username:** `admin`
 - **Parol:** `SuperAdminTest2026!`
 
-### 🎓 20 ta Dastlabki O'quvchilar:
+### 🎓 O'quvchilar ro'yxati (22 nafar):
 | T/r | O'quvchi F.I. | Login (Username) | Dastlabki Parol |
 |---|---|---|---|
 | 1 | Jaxongir Abdurashidov | `jaxongir_a` | `Jaxo#2026` |
@@ -101,7 +101,9 @@ Platformada o'tilgan barcha mavzular bo'yicha to'liq testlar va har bir misolnin
 | 17 | Toxir To'rabekov | `toxir_t` | `Toxi#2026` |
 | 18 | Karina Turdaliyeva | `karina_t` | `Kari#2026` |
 | 19 | Diyoraxon Xodjidadayeva | `diyoraxon_x` | `Diyo#2026` |
-| 20 | Ro'zzana Abdumalikov | `rozzana_a` | `Rozz#2026` |
+| 20 | Ro'zzana Abdumalikova | `rozzana_a` | `Rozz#2026` |
+| 21 | Durdona Baxodirova | `durdona_b` | `Durd#2026` |
+| 22 | Zebo Mirsaitova | `zebo_m` | `Zebo#2026` |
 
 *(Login sahifasida bir tugma bilan istalgan hisobni avtomatik to'ldirish imkoniyati ham mavjud)*
 

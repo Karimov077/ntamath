@@ -190,7 +190,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
 
           <div className="border-t border-slate-200 dark:border-slate-800 pt-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2">
-              O'quvchilar (20 nafar)
+              O'quvchilar ({students.filter((s) => s.role === 'student').length} nafar)
             </h4>
             <div className="space-y-1.5 max-h-60 overflow-y-auto pr-1">
               {students

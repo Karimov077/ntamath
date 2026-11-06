@@ -3,8 +3,8 @@ import initialStudents from '../data/students.json';
 import initialLessons from '../data/tests.json';
 
 const STORAGE_KEYS = {
-  LESSONS: 'ntamath_lessons_v3',
-  STUDENTS: 'ntamath_students_v1',
+  LESSONS: 'ntamath_lessons_v4',
+  STUDENTS: 'ntamath_students_v2',
   RESULTS: 'ntamath_results_v1',
   ACTIVE_SESSION: 'ntamath_active_session',
   CURRENT_USER: 'ntamath_current_user',
